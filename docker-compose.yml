@@ -13,4 +13,5 @@ services:
       - CHOKIDAR_USEPOLLING=true
     volumes:
       - .:/app
+      - ~/.ssh:/root/.ssh
     command: /bin/sh -c "yarn install && yarn build && yarn start"
