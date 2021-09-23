@@ -1,12 +1,12 @@
-import Sidebar from './sidebar'
-import Footer from './footer'
+import Sidebar from './sidebar';
+import Footer from './footer';
 
 export default function Layout({ children }) {
-    return (
-        <>
-            <Sidebar />
-            <main>{children}</main>
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Sidebar />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
 }
